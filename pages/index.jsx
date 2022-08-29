@@ -166,14 +166,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buy Albert a Coffee!</title>
+        <title>Nate's Coffee Fund</title>
         <meta name="description" content="Tipping site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Buy Albert a Coffee!
+          Keep Nate Coding
+        </h1>
+        <h1 className={styles.title}>
+          By Purchasing a Coffee.
         </h1>
         
         {currentAccount ? (
@@ -195,7 +198,7 @@ export default function Home() {
               <br/>
               <div class="formgroup">
                 <label>
-                  Send Albert a message
+                  Send Nate, a inspiring message.
                 </label>
                 <br/>
 
